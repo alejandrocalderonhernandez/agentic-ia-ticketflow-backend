@@ -1,0 +1,23 @@
+{
+  "name": "ticket-flow-backend",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.1",
+    "cors": "^2.8.6",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.0.0"
+  }
+}
